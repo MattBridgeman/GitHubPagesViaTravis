@@ -14,8 +14,8 @@
     "test:watch": "npm test -- --watch",
     "check:src": "npm run lint && npm run test",
     "build:js": "babel src --out-dir build",
-    "build:html": "copyfiles -u 1 src/**/*.html build",
-    "build:css": "copyfiles -u 1 src/**/*.css build",
+    "build:html": "copyfiles -u 1 'src/**/*.html' build",
+    "build:css": "copyfiles -u 1 'src/**/*.css' build",
     "build": "npm run build:html && npm run build:css && npm run build:js"
   },
   "devDependencies": {
