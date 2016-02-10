@@ -20,6 +20,10 @@ language: node_js
 node_js:
   - "4"
 
+script:
+  - npm run check:src
+  - npm run build
+
 sudo:
   - required
 
