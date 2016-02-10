@@ -1,0 +1,31 @@
+# For more information about the configurations used
+# in this file, please see the Travis CI documentation:
+# http://docs.travis-ci.com
+
+after_success:
+  - $(npm bin)/update-branch --commands "npm install && npm run build"
+                             --commit-message "Hey GitHub, this content is for you! [skip ci]"
+                             --directory "build"
+                             --distribution-branch "gh-pages"
+                             --source-branch "master"
+
+env:
+  - CXX=g++-4.8
+
+git:
+  depth: 10
+
+language: node_js
+
+node_js:
+  - "4"
+
+sudo:
+  - required
+
+addons:
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+    packages:
+      - g++-4.8
