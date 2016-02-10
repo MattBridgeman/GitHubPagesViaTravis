@@ -1,0 +1,19 @@
+{
+  "name": "lentcoding",
+  "version": "1.0.0",
+  "description": "LentCoding is a challenge to add a new code project for the 40 days of lent.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattBridgeman/LentCoding.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MattBridgeman/LentCoding/issues"
+  },
+  "homepage": "https://github.com/MattBridgeman/LentCoding#readme"
+}
