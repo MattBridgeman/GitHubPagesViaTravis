@@ -11,8 +11,6 @@ after_success:
 
 env:
   - CXX=g++-4.8
-  global:
-    - secure: "CguKtZSKYsXk2etsFE7FMejylxCWNycuozhKWdAkZF4Dc0LbRFEXSHHB6vaEaa7BO0HbyYTkCx4aWiztVDdPeSAERmeCITteKKs6pew1uDVGLOlOlOP/wpQgrL9mOl74yPyKSV9fHMLakeOKQlY/2fVeQ0m1GGerGBuslLSSygE="
 
 git:
   depth: 10
