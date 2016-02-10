@@ -19,6 +19,7 @@
     "build": "npm run build:html && npm run build:css && npm run build:js"
   },
   "devDependencies": {
+    "@alrra/travis-scripts": "^2.0.0",
     "babel-cli": "^6.3.15",
     "babel-core": "^6.3.15",
     "babel-eslint": "^4.1.6",
